@@ -1,36 +1,33 @@
 
 % Tabella da personalizzare in base alle ore delle attività
 
-\begin{tabularx}{\textwidth}{|c|X|}
-	\hline
-	\textbf{Durata in ore} & \textbf{Descrizione dell'attività} \\\hline
-	
-	\textbf{38} & \textbf{Formazione sulle tecnologie} \\	 
-    \hline
-    
-    \textbf{38} & \textbf{Definizione architettura di riferimento e relativa documentazione} \\ \hdashline 
-    \multirow{3}{0cm}\\ 
-    \textit{12} & 
-    \textit{Analisi del problema e del dominio applicativo} \\
-    \textit{22} & 
-    \textit{Progettazione della piattaforma e relativi test} \\
-    \textit{4} & 
-    \textit{Stesura documentazione relativa ad analisi e progettazione} \\
-    \hline
-    
-    \textbf{38} & \textbf{Collaudo Finale}  \\ \hdashline 
-    \multirow{4}{0cm}\\ 
-    \textit{30} & 
-    \textit{Collaudo} \\
-    \textit{5} & 
-    \textit{Stesura documentazione finale} \\
-    \textit{1} & 
-    \textit{Incontro di presentazione della piattaforma con gli stakeholders} \\
-    \textit{2} & 
-    \textit{Live demo di tutto il lavoro di stage} \\
-    \hline
-	
-	\textbf{Totale ore} & \multicolumn{1}{|c|}{\textbf{\totaleOre}} \\\hline
-	
-	
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}p{2cm} X}
+    \toprule
+    \rowcolor{primary!8}
+    \textbf{\color{primary}Ore} & \textbf{\color{primary}Descrizione dell'attività} \\
+    \midrule
+
+    \textbf{38} & \textbf{Formazione sulle tecnologie} \\
+    \midrule
+
+    \textbf{38} & \textbf{Definizione architettura di riferimento e relativa documentazione} \\
+    \cmidrule[0.3pt]{1-2}
+    \textit{12} & \textit{Analisi del problema e del dominio applicativo} \\
+    \textit{22} & \textit{Progettazione della piattaforma e relativi test} \\
+    \textit{4} & \textit{Stesura documentazione relativa ad analisi e progettazione} \\
+    \midrule
+
+    \textbf{38} & \textbf{Collaudo Finale} \\
+    \cmidrule[0.3pt]{1-2}
+    \textit{30} & \textit{Collaudo} \\
+    \textit{5} & \textit{Stesura documentazione finale} \\
+    \textit{1} & \textit{Incontro di presentazione della piattaforma con gli stakeholders} \\
+    \textit{2} & \textit{Live demo di tutto il lavoro di stage} \\
+
+    \midrule
+    \rowcolor{primary!8}
+    \textbf{Totale} & \textbf{\totaleOre} \\
+    \bottomrule
 \end{tabularx}
+\renewcommand{\arraystretch}{1.0}

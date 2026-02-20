@@ -1,71 +1,52 @@
 \begin{titlepage}
-    
-    % Defines a new command for the horizontal lines, change thickness here
-    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
-    
-    % Center everything
-    \center
-    
-    %----------------------------------------------------------------------------------------
-    %	HEADING SECTIONS
-    %----------------------------------------------------------------------------------------
-    
-    % Name of your university/college
-    \textsc{\LARGE Università degli Studi di Padova}\\[1cm] 
-    
-    %----------------------------------------------------------------------------------------
-    %	LOGO SECTION
-    %----------------------------------------------------------------------------------------
-    
-    \includegraphics[height=5cm]{img/UniPd.png}\\[1cm]
-    
-    \includegraphics[height=1.5cm, width = 9cm]{img/MathDip.png}\\
-    \textsc{\dipartimento}\\[1.2cm]
-    % Major heading such as course name
-    \textsc{\Large Scuola di Scienze}\\[0.5cm] 
-    
-    % Minor heading such as course title
-    \textsc{\large Corso di Laurea in Informatica}\\[0.5cm] 
-    
+  \begin{center}
+
+    \vspace*{0.5cm}
+
+    {\large\color{medgray}\textsc{Università degli Studi di Padova}}
+
+    \vspace{0.8cm}
+
+    \includegraphics[height=4.5cm]{img/UniPd.png}
+
+    \vspace{0.6cm}
+
+    \includegraphics[height=1.3cm, width=8.5cm]{img/MathDip.png}\\[0.3cm]
+    {\small\color{primary}\textsc{\dipartimento}}
+
+    \vspace{0.4cm}
+
+    {\normalsize\color{medgray}\textsc{Scuola di Scienze}}\\[0.15cm]
+    {\normalsize\color{medgray}\textsc{Corso di Laurea in Informatica}}
+
     \vspace{2.5cm}
-    
-    %----------------------------------------------------------------------------------------
-    %	TITLE SECTION
-    %----------------------------------------------------------------------------------------
-    
-    \HRule \\[0.4cm]
-    { \huge \bfseries Piano di lavoro}\\[0.4cm] % Title of your document
-    \HRule \\[1.5cm]
-    
-    %----------------------------------------------------------------------------------------
-    %	AUTHOR SECTION
-    %----------------------------------------------------------------------------------------
-    
-    \vspace{1.5cm}
-    
-    \begin{minipage}{0.4\textwidth}
-        \begin{flushleft} \large
-            \emph{Studente:}\\
-            \nomeStudente\ \textsc{\cognomeStudente\ } - \matricolaStudente
-        \end{flushleft}
+
+    {\color{accent}\rule{0.5\textwidth}{1.5pt}}\\[0.6cm]
+    {\Huge\bfseries\color{primary}Piano di lavoro}\\[0.6cm]
+    {\color{accent}\rule{0.5\textwidth}{1.5pt}}
+
+    \vspace{2.5cm}
+
+    \begin{minipage}{0.45\textwidth}
+      \begin{flushleft}
+        {\footnotesize\color{medgray}\textsc{STUDENTE}}\\[0.2cm]
+        {\large\color{primary}\nomeStudente\ \textsc{\cognomeStudente}}\\[0.1cm]
+        {\small\color{medgray}Matricola \matricolaStudente}
+      \end{flushleft}
     \end{minipage}
-    ~
-    \begin{minipage}{0.4\textwidth}
-        \begin{flushright} \large
-            \emph{Azienda:} \\
-            \ragioneSocAzienda
-        \end{flushright}
-    \end{minipage}\\[2cm]
-    
-    %----------------------------------------------------------------------------------------
-    %	DATE SECTION
-    %----------------------------------------------------------------------------------------
-    
-    {\large \today}\\[2cm]
-    
-    
-    %----------------------------------------------------------------------------------------
-    % Fill the rest of the page with whitespace
-    \vfill 
-    
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+      \begin{flushright}
+        {\footnotesize\color{medgray}\textsc{AZIENDA}}\\[0.2cm]
+        {\large\color{primary}\ragioneSocAzienda}
+      \end{flushright}
+    \end{minipage}
+
+    \vfill
+
+    {\color{medgray}\today}
+
+    \vspace{0.5cm}
+
+  \end{center}
 \end{titlepage}
